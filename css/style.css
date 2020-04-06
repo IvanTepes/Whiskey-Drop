@@ -1,18 +1,24 @@
-/* Navbar Brand */
-
-.navbar-brand{
-    font-family: 'Shadows Into Light';
-    font-size: 1.70rem;
-}
 
 /* Body */
 
 body {
     font-family: 'Roboto', sans-serif;
 }
+
 /*Alert Container*/
 
-.alert-container {}
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.site-wide-alert {
+    border-radius: 0;
+    margin-bottom:0;
+    padding: 5px 15px;
+    background-color: #fad365;
+    border-color:  #fad365;
+}
 
 /* Callout Container */
 
@@ -26,9 +32,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  position: relative;
 }
 
-
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
 
 
 .quotes-container{}
@@ -42,17 +57,51 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
-    background-color: #c36d06;
+    
 }
 
 .block-divider--orange{
-    color: #c36d06;
+    background-color: #c36d06;
 }
 
 .block-divider--short{
     width: 35px;
 
 }
+
+/* Navbar */
+
+.navbar-brand{
+    font-family: 'Shadows Into Light';
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.25);
+
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
 /* Jumbotron */
 
 .jumbotron{
@@ -65,12 +114,6 @@ body {
     margin-bottom: 30px;
 }
 
-.block-divider{
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #c36d06;
-}
 .jumbotron .lead {
     margin: 25px 0px;
     color: #a7a7a7;
@@ -80,5 +123,30 @@ body {
     font-style: italic;
     color: #d0d0d0;
 }
-/* 4 */
+/*  Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color:#c36d06;
+    border-color: #c36d06;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color:  #ff8907;
+    border-color: #ff8907;
+}
+
+
+
+ 
+
 /* 5 */

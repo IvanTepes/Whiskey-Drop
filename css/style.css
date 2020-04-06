@@ -1,0 +1,84 @@
+/* Navbar Brand */
+
+.navbar-brand{
+    font-family: 'Shadows Into Light';
+    font-size: 1.70rem;
+}
+
+/* Body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+/*Alert Container*/
+
+.alert-container {}
+
+/* Callout Container */
+
+.callout-container{
+    height: 100vh;
+    background: url("/assets/img/whiskey-background2.png") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.quotes-container{}
+.monthly-favorites--container{}
+.features-container{}
+.modal-container{}
+
+/* Block Dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #c36d06;
+}
+
+.block-divider--orange{
+    color: #c36d06;
+}
+
+.block-divider--short{
+    width: 35px;
+
+}
+/* Jumbotron */
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.block-divider{
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #c36d06;
+}
+.jumbotron .lead {
+    margin: 25px 0px;
+    color: #a7a7a7;
+}
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+/* 4 */
+/* 5 */

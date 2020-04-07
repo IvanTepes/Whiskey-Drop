@@ -1,0 +1,55 @@
+
+/* Body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Navbar */
+
+.navbar-brand{
+    font-family: 'Shadows Into Light';
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+
+/* Wrappers */
+
+.callout-container {
+    height: 100vh;
+    background: url("./assets/img/whiskey-background2.png") no-repeat bottom right fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+
+
+/* Item Container */
+
+
+

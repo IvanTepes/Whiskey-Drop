@@ -19,6 +19,8 @@ body {
     border: 0;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.25);
+    position: absolute;
+    z-index: 1;
 }
 
 .navbar .navbar-toggler {
@@ -34,8 +36,8 @@ body {
 /* Wrappers */
 
 .callout-container {
-    height: 100vh;
-    background: url("./assets/img/whiskey-background2.png") no-repeat bottom right fixed; 
+    height: 200vh;
+    background: url("/assets/img/indian/indian-background.png") no-repeat bottom right fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -51,5 +53,76 @@ body {
 
 /* Item Container */
 
+.item-container {
+    top: 68px;
+    position: absolute;
 
+}
+/* Media */
 
+ /* Wrappers */
+
+.container-wrapper {
+   
+    position: absolute;
+    top: 69px;
+}
+ 
+.list--container {
+     padding-top: 20px;
+ }
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+
+/* Headers */
+
+.header  {
+    color: white;
+    padding-top: 30px;
+   
+}
+
+.header--orange {
+    color: orange;
+}
+
+.header h4 {
+    color: orange;
+}
+.header p {
+    text-align: center;
+}
+/*  Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color:#c36d06;
+    border-color: #c36d06;
+}  
+/* Block Dividers */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.block-divider--orange{
+    background-color: #c36d06;
+}
